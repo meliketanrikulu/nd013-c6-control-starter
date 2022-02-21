@@ -4,6 +4,9 @@
 
 In this project, you will apply the skills you have acquired in this course to design a PID controller to perform vehicle trajectory tracking. Given a trajectory as an array of locations, and a simulation environment, you will design and code a PID controller and test its efficiency on the CARLA simulator used in the industry.
 
+### Solution
+A PID controller is implemented and integrated into the provided framework for throttle and steering control. Several fixes are added to the framework and simulation client to make the control smoother and more stable. Due to insufficient hardware for simulation, an application was developed on the remote desktop provided by UDACITY. The results are given below. 
+
 ### Installation
 
 Run the following commands to install the starter code in the Udacity Workspace:
