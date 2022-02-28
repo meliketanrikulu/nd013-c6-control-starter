@@ -75,6 +75,18 @@ The Figure below shows the steering control error and its output in a scene with
 
 <img src="/img/steerData.png" alt="throttleData"/>
 
+Questions 
+
+* PID controller is a model free controller, i.e. it does not use a model of the car. Could you explain the pros and cons of this type of controller?
+
+Being independent of the model of PID reduces complexity. On the other hand, it needs to be rearranged for each new vehicle. We can't specify constraints because we don't have a model. mpc can be given as an example of model dependent algorithms.
+
+* How would you design a way to automatically tune the PID parameters?
+
+Parameter optimization is performed using the twiddle algorithm, which is based on making iterative changes to each parameter while an improvement is seen, reducing the magnitude of the change if better values are not found.
+
+
+
 
 
 
