@@ -75,7 +75,7 @@ The Figure below shows the steering control error and its output in a scene with
 
 <img src="/img/steerData.png" alt="throttleData"/>
 
-Questions 
+### Questions 
 
 * PID controller is a model free controller, i.e. it does not use a model of the car. Could you explain the pros and cons of this type of controller?
 
